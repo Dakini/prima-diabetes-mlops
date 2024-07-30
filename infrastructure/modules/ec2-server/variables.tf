@@ -18,9 +18,7 @@ variable "db_username" {
 variable "db_password" {
   description = "db username"
 }
-variable "db_endpoint" {
-  description = "db endpoint"
-}
+
 variable "bucket-name" {
   description = "bucket-arn"
 }

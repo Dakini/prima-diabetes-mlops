@@ -23,7 +23,3 @@ sudo yum install python3-pip -y
 
 # Source the .bashrc file to apply the changes
 source ~/.bashrc
-
-
-sudo pip3 install jupyter
-pip3 install mlflow

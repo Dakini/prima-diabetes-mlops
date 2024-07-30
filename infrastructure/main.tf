@@ -33,7 +33,7 @@ module "mlflow-server" {
   source = "./modules/ec2-server"
   project_id = var.project_id
   shh-key-name = var.ssh-key-name
-  depends_on = [ module.mlflow-rds, module.mlflow-bucket]
+  depends_on = [ module.mlflow-bucket]
   bucket-arn = module.mlflow-bucket.bucket-arn
   bucket-name = module.mlflow-bucket.bucket-name
 
